@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.flat {
+  background-color: #645151;
+  color: white;
+  width: 18rem;
+  height: 3rem;
+  padding: 0.7rem 0rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  position: fixed;
+  top: 50%;
+  right: -7rem;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  font-weight: 600;
+  text-align: center;
+}
+
+.fa-caret-up {
+  padding-left: 1.5rem;
+  font-size: 1.9rem;
+}
+
+.freeship {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 10%;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fa-truck {
+  font-size: 3rem;
+}
+
+.t99 {
+  height: auto;
+  width: 100%;
+}
+
+.mainbanner {
+  padding: 2rem 1rem;
+}
+
+.maintitle {
+  padding: 1rem 2rem;
+  width: 100%;
+}
+
+.maintitle div {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  opacity: 0.9;
+  letter-spacing: 4px;
+}
+
+.dealofday {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 18.3% 18.3% 18.3% 18.3% 18.3%;
+      grid-template-columns: 18.3% 18.3% 18.3% 18.3% 18.3%;
+  grid-column-gap: 1.5rem;
+  padding: 1rem 3.2rem;
+}
+
+.dealofday .grid1dotd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.dealofday .grid1dotd .imgdealoftheday {
+  height: 170px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.dealofday .grid1dotd .dotdtag {
+  font-family: 'Prata', serif;
+  font-size: 2.2rem;
+  text-transform: capitalize;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.dealofday .grid1dotd span {
+  font-size: 1.3rem;
+  font-family: 'Prata', serif;
+  text-transform: capitalize;
+  opacity: 0.8;
+}
+
+.dealofday .grid1dotd .dotdlogo {
+  height: 3rem;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.biggestdealgrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 17.86% 17.86% 17.86% 17.86% 17.86%;
+      grid-template-columns: 17.86% 17.86% 17.86% 17.86% 17.86%;
+  grid-row-gap: 2rem;
+  grid-column-gap: 2.5rem;
+  padding: 2rem 4rem;
+}
+
+.biggestdealgrid .biggestdealgridone {
+  height: auto;
+  width: 100%;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+.biggestdealgrid .biggestdealgridone .imgbiggestdeal {
+  height: 250px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 4px 5px 5px white;
+          box-shadow: 2px 4px 5px 5px white;
+}
+
+.biggestdealgrid .biggestdealgridone .bdlogo {
+  height: 3rem;
+  text-align: center;
+}
+
+.biggestdealgrid .biggestdealgridone .bgtag {
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 600px) {
+  .freeship {
+    font-size: 1rem;
+  }
+  .fa-truck {
+    font-size: 1rem;
+  }
+  .flat {
+    width: 16rem;
+    height: 3rem;
+    padding: 0.5rem 0rem;
+    font-size: 1.2rem;
+  }
+  .mainbanner {
+    padding: 1rem 0.5rem;
+  }
+  .maintitle {
+    padding: 1rem 1rem;
+  }
+  .maintitle div {
+    font-size: 1.2rem;
+  }
+  .dealofday {
+    -ms-grid-columns: 30% 30% 30%;
+        grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 1.2rem;
+    grid-row-gap: 1.2rem;
+    padding: 1rem;
+  }
+  .dealofday .grid1dotd .imgdealoftheday {
+    height: 120px;
+  }
+  .dealofday .grid1dotd .dotdtag {
+    font-size: 1.01rem;
+  }
+  .dealofday .grid1dotd span {
+    font-size: 0.9rem;
+  }
+  .biggestdealgrid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% 40%;
+        grid-template-columns: 40% 40%;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 1rem;
+    padding: 1rem 0rem;
+  }
+  .biggestdealgrid .biggestdealgridone {
+    padding: 0.5rem;
+  }
+  .biggestdealgrid .biggestdealgridone .bgtag {
+    font-size: 0.8rem;
+  }
+  .biggestdealgrid .biggestdealgridone .imgbiggestdeal {
+    height: 170px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 780px) {
+  html {
+    overflow-x: hidden;
+  }
+  .dealofday {
+    padding: 1rem 1.4rem;
+    -ms-grid-columns: 18% 18% 18% 18% 18%;
+        grid-template-columns: 18% 18% 18% 18% 18%;
+    grid-column-gap: 1.1rem;
+  }
+  .dealofday .grid1dotd .imgdealoftheday {
+    height: 120px;
+  }
+  .dealofday .grid1dotd .dotdtag {
+    font-size: 1.3rem;
+  }
+  .dealofday .grid1dotd span {
+    font-size: 1rem;
+  }
+  .biggestdealgrid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 17.86% 17.86% 17.86% 17.86% 17.86%;
+        grid-template-columns: 17.86% 17.86% 17.86% 17.86% 17.86%;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 1rem;
+    padding: 1rem 0rem;
+  }
+  .biggestdealgrid .biggestdealgridone {
+    padding: 0.5rem;
+  }
+  .biggestdealgrid .biggestdealgridone .bgtag {
+    font-size: 0.8rem;
+  }
+  .biggestdealgrid .biggestdealgridone .imgbiggestdeal {
+    height: 170px;
+  }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 1030px) {
+  .biggestdealgrid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 17.86% 17.86% 17.86% 17.86% 17.86%;
+        grid-template-columns: 17.86% 17.86% 17.86% 17.86% 17.86%;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 1rem;
+    padding: 1rem 0rem;
+  }
+  .biggestdealgrid .biggestdealgridone {
+    padding: 0.5rem;
+  }
+  .biggestdealgrid .biggestdealgridone .bgtag {
+    font-size: 0.8rem;
+  }
+  .biggestdealgrid .biggestdealgridone .imgbiggestdeal {
+    height: 190px;
+  }
+}
+/*# sourceMappingURL=Style.css.map */
